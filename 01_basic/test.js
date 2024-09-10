@@ -1,1 +1,1 @@
-console.log("Paresh is persuing b tech degree in CSE-CC")
+console.log("Paresh is persuing b-tech degree in CSE-CC")
