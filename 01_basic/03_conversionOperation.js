@@ -1,11 +1,11 @@
 let score = "paresh"
 
-console.log(typeof score)
-console.log(typeof (score))
+//console.log(typeof score)
+//console.log(typeof (score))
 
 let valueInNumber = Number(score)
-console.log(typeof valueInNumber);
-console.log(valueInNumber);
+//console.log(typeof valueInNumber);
+//console.log(valueInNumber);
 
 
 //"33"=>33
@@ -24,5 +24,13 @@ let booleanIsLoggedIn = Boolean(isLoggedIn)
 
 let someNumber = 33
 let stringNumber = String(someNumber)
-console.log(stringNumber);
-console.log(typeof StringNumber)
+//console.log(stringNumber);
+//console.log(typeof StringNumber)
+
+
+
+ //  ******************* Operation ******************
+
+ let value = 3
+ let negValue = -value
+ console.log(negValue)
