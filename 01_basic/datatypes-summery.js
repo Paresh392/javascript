@@ -12,7 +12,7 @@ let userEmail;
 const id = Symbol('123')
 const anotherId = Symbol('123')
 
-console.log(id === anotherId)
+//console.log(id === anotherId)
 const bigint = 1234567849n
 
 // 2. Reference (NON Primitive)
@@ -25,8 +25,21 @@ let myObj={
 }//object
 
 const myFunction = function(){
-    console.log("Hello world")
+    //console.log("Hello world")
 }//function
 
-console.log(typeof myFunction);
+//console.log(typeof myFunction);
 
+
+//******************** Memory Allocation ********************
+
+// 1. Stack (use in primitive)
+// 2. Heap (use on non primitive)
+
+let myYoutubename = "pareshdotcom"
+
+ let anotherName = myYoutubename
+ anothername = "kumar"
+
+console.log(myYoutubename);
+console.log(anothername);
