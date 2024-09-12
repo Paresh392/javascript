@@ -43,3 +43,18 @@ let myYoutubename = "pareshdotcom"
 
 console.log(myYoutubename);
 console.log(anothername);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+ 
+let userTwo = userOne
+
+userTwo.email = "paresh@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+//stack gives coppy value.
+//heap gipes reference value.
