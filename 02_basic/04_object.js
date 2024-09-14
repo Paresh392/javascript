@@ -11,13 +11,13 @@ const regularUser  = {
     email:"sam@google.com",
     fullname: {
         userfullname: {
-        firstname: "paresh",
-        lastname: "kumar"
+        firstname: "Rupesh",
+        lastname: "Yadav"
         }
     }
 }
 
-console.log(regularUser.fullname.userfullname.firstname);
+console.log(regularUser.fullname.userfullname.lastname);
 
 //combination of object. 
 
