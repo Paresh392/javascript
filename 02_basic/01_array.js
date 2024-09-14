@@ -1,6 +1,6 @@
 // Array
 
-const myArray =  [0, 1, 2, 3, 4, 5, 6] //Array of js is resizable
+const myArray = [0, 1, 2, 3, 4, 5, 6] //Array of js is resizable
 const myHeros = ["thor", "iron man", "CA"]
 
 // console.log(myArray[3]);
@@ -25,6 +25,19 @@ const myArray2 = new Array(1, 2, 3, 4)
 
 const newArray = myArray.join()
 
-console.log(myArray);
-console.log(newArray);
-console.log(typeof newArray);
+// console.log(myArray);
+// console.log(newArray);
+// console.log(typeof newArray);
+
+//slice and splice
+
+console.log("A" , myArray);
+const myn1  = myArray.slice(1 ,3)
+
+console.log(myn1);
+console.log("B" , myArray);
+
+const myn2  = myArray.splice(1 ,3)
+
+console.log("c" , myArray);
+console.log(myn2);
