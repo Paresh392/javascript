@@ -1,4 +1,4 @@
-//var c =200
+var c =200
 let a = 200
 if (true) {
     let a = 10
@@ -40,7 +40,7 @@ if (true) {
   
  console.log(addone(5))
    function addone(num){
-    return num + 5
+    return num + 4
  } 
  //addtwo(5)
  const addtwo = function(num){    //  Hoisting
