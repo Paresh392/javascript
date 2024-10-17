@@ -1,2 +1,2 @@
-# js-hindi-youtube
+# javascript
 A code repositories for javascript. 
